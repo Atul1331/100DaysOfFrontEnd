@@ -25,6 +25,7 @@ a{
 }
 
 #mov{
+    padding-left: 40px;
     color: red;
 }
 
@@ -54,14 +55,142 @@ img{
 h1{
     font-size: 60px;
     padding: 20px;
+    color: red;
 }
 
 .para{
     padding-left: 20px;
+    padding-right: 20px;
     font-size: 30px;
+    margin-bottom: 20px;
 }
 
-.r1{
-    height: 500px;
-    background-color: black;
+button{
+    width: 130px;
+    height: 40px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+}
+
+button:hover{
+    background-color: white;
+    border-color: red;
+    color: red;
+}
+
+.spara{
+    font-size: 25px;
+}
+
+
+
+
+/*  MEDIA QUERIES  */
+
+@media screen and (max-width: 590px){
+
+    .navbar ul li{
+        font-size: 25px;
+    }
+
+    a{
+       padding: 35px; 
+    }
+
+    img{
+        height: 80px;
+        width: 80px;
+    }
+
+    .content p{
+        font-size: 40px;
+    }
+
+    h1{
+        font-size: 50px;
+    }
+
+    .para{
+        font-size: 20px;
+    }   
+}
+
+@media screen and (max-width: 470px){
+
+    
+
+    a{
+       padding: 25px; 
+    }
+
+    
+
+    .content p{
+        font-size: 30px;
+    }
+
+       
+}
+
+@media screen and (max-width: 400px){
+
+    .navbar ul li{
+
+        font-size: 20px;
+        
+        
+    }
+
+    a{
+       padding: 20px; 
+    }
+
+    .section{
+        height: 350px;
+    }
+
+    .content p{
+        font-size: 30px;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+       
+}
+
+@media screen and (max-width: 350px){
+
+   
+
+    a{
+       padding: 10px; 
+    }
+
+    #mov{
+        padding-left: 30px;
+    }
+
+    .section{
+        height: 300px;
+    }
+
+    .content p{
+        font-size: 25px;
+    }
+
+    
+
+       
+}
+
+@media screen and (max-width: 300px){
+    .content p{
+        font-size: 20px;
+    }
 }
